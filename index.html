@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div id="header">
+            <video autoplay muted loop class="bg-video">
+                <source src="./VIDEOS/bg-1.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+
+            <div class="nav">
+                <div class="heading">
+                    <h1><span>P</span>ORTFOLIO</h1>
+                </div>
+                <div class="navbar">
+                    <ul id="sidemenu">
+                        <li><a href="#">HOME</a></li>
+                        <li class="low-space"><a href="#newAbout">ABOUT</a></li>
+                        <li class="low-space"><a href="#services">SERVICES</a></li>
+                        <li class="low-space"><a href="#portfolio">PROJECTS</a></li>
+
+                        <li class="low-space"><a href="#contact">CONTACT</a></li>
+                        <div class="xmark">
+                            <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        </div>
+                    </ul>
+                </div>
+                <div class="menui">
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+
+                </div>
+            </div>
+
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Hello, it's Me <br><span>Lakshay Garg</span></h1>
+                    <p class="p-1">And I am a <span class="text"></span></p>
+                    <p class="p-2">Passionate Front-End Web Developer with expertise in <span>HTML, CSS, JavaScript.
+                        </span>
+                        I create responsive, user-friendly websites focused on performance, aesthetics, and seamless
+                        user
+                        experiences.</p>
+                    <ul>
+                        <a href="https://www.instagram.com/its_lakshay_627/" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/LakshayGarg627" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/lakshay-garg-31b3bb291/" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://x.com/its_lakshay627" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    </ul>
+                    <a href="hire-me.html">
+                        <div class="hire-me">
+                            <h4>HIRE ME</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="header-img">
+                    <img src="./IMAGES/portfolio-img.jpeg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="video">
+            <video autoplay muted loop class="bg-video-1">
+                <source src="./VIDEOS/bg-2.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <video autoplay muted loop class="bg-video1">
+            <source src="./VIDEOS/red-3.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div id="about">
+            <div style="opacity: 0; position: absolute ; left: 0; top:-120px;" id="newAbout">Hello
+
+            </div>
+            <div class="container">
+                <div class="img">
+                    <img src="./IMAGES/main.jpg" alt="">
+                </div>
+            </div>
+            <div class="container-2">
+                <h1 class="about-me"><span class="text-2"></span></h1>
+                <p class="intro">Hi, I'm Lakshay Garg! 👋<br>
+                    I'm a passionate Front-End Developer and Java Programmer who loves turning ideas into reality
+                    through clean, efficient code.
+                    <br>With a knack for building intuitive, user-friendly web experiences, I'm always up for
+                    solving
+                    complex problems and diving into the latest tech trends. 🚀
+                    <br>
+                    When I'm not coding, you'll find me exploring new frameworks, contributing to open-source
+                    projects,
+                    or sharpening my skills through LeetCode challenges. 💡
+                </p>
+                <div class="skills-titles">
+                    <p class="skills-links active-link" onclick="opentab('skills')">SKILLS</p>
+                    <p class="skills-links " onclick="opentab('education')">EDUCATION</p>
+                    <p class="skills-links " onclick="opentab('experience')">EXPERIENCE</p>
+                </div>
+                <div class="skills-content active-content" id="skills">
+                    <ul>
+                        <li><span class="span-1">UI/UX</span><br>Designing Web Interfaces</li>
+                        <li>
+                            <span class="span-1">WEB DEVELOPER</span><br>Responsive Web Applications
+                        </li>
+                        <li>
+                            <span class="span-1">PROGRAMMER</span><br>Java-Programmer
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-content " id="education">
+                    <ul>
+                        <li><span class="span-2">Chitkara University Punjab</span>
+                            <br>
+                            <span class="span-4">2023 - Current</span>
+                            <br>
+                            <span>Completing My B.E in Computer Science.</span>
+                        </li>
+                        <li><span class="span-2">DPS PANIPAT CITY</span>
+                            <br>
+                            <span class="span-4">2021 - 2023</span>
+                            <br>
+                            <span>Completed Studies of Class 11 th & 12 th In Non - Medical.</span>
+                        </li>
+                        <li><span class="span-2">Dr.M.K.K Arya Model School</span>
+                            <br>
+                            <span class="span-4">2012 - 2021</span>
+                            <br>
+                            <span>Completed Studies Till Class 10.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-content " id="experience">
+                    <ul>
+                        <li><span class="span-3">UI/UX</span><br>Designing Web Interfaces</li>
+                        <li>
+                            <span class="span-3">WEB DEVELOPER</span><br>Responsive Web Applications
+                        </li>
+                        <li>
+                            <span class="span-3">PROGRAMMER</span><br>Java-Programmer
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container-3">
+                <h1 class="about-me"> <span class="text-1"></span></h1>
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code'></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam natus, enim
+                        corporis
+                        quis impedit, consectetur est deleniti voluptatum perferendis laborum quidem animi obcaecati
+                        quas repellat, distinctio sit! Quam maxime dignissimos ducimus quaerat voluptate qui
+                        excepturi
+                        magni eos cumque provident quisquam fugit nemo illum aperiam praesentium, accusantium amet
+                        dolorem ut officiis libero voluptatibus animi quia corrupti! Quia doloremque quaerat</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="hide">
+                    <i class='bx bx-crop'></i>
+                    <h2>UI/UX DESIGN</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam natus, enim
+                        corporis
+                        quis impedit, consectetur est deleniti voluptatum perferendis laborum quidem animi obcaecati
+                        quas repellat, distinctio sit! Quam maxime dignissimos ducimus quaerat voluptate qui
+                        excepturi
+                        magni eos cumque provident quisquam fugit nemo illum aperiam praesentium, accusantium amet
+                        dolorem ut officiis libero voluptatibus animi quia corrupti! Quia doloremque quaerat</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="hide">
+                    <i class='bx bx-code-block'></i>
+                    <h2>Programmer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam natus, enim
+                        corporis
+                        quis impedit, consectetur est deleniti voluptatum perferendis laborum quidem animi obcaecati
+                        quas repellat, distinctio sit! Quam maxime dignissimos ducimus quaerat voluptate qui
+                        excepturi
+                        magni eos cumque provident quisquam fugit nemo illum aperiam praesentium, accusantium amet
+                        dolorem ut officiis libero voluptatibus animi quia corrupti! Quia doloremque quaerat</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="Show-more">
+                <button class="btn btn-primary">Show More</button>
+            </div>
+        </div>
+        <video autoplay muted loop class="bg-video2">
+            <source src="./VIDEOS/red-6.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div id="portfolio">
+            <div class="container-4">
+
+                <h1 class="about-me"> <span class="text-3"></span></h1>
+                <div class="work-list">
+                    <a href="https://skill-sage-tau.vercel.app/" target="_blank">
+                        <div class="work">
+                            <img src="./IMAGES/FREELANCING.jpg" alt="">
+
+                            <div class="layer">
+                                <h3>SkillSage - FreeLancing Platform</h3>
+                                <p>SkillSage is a platform that connects freelancers from different parts of the
+                                    world
+                                    to Businesses.</p>
+                                <a href="https://skill-sage-tau.vercel.app/" target="_blank">
+                                    <div class="button">
+                                        <h3>Visit Link</h3>
+                                        <a href="https://skill-sage-tau.vercel.app/" target="_blank"><i
+                                                class="fa-solid fa-up-right-from-square"></i></a>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                    </a>
+
+                </div>
+                <a href="https://music-app-xi-hazel.vercel.app/" target="_blank">
+                    <div class="work hide">
+                        <img src="./IMAGES/MUSIC.jpg" alt="">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Discover your favorite tunes with our music app, offering an immersive listening
+                                experience.
+                            </p>
+                            <a href="https://spotify-silk-omega.vercel.app/">
+                                <div class="button">
+                                    <h3>Visit Link</h3>
+                                    <a href="https://music-app-xi-hazel.vercel.app/" target="_blank"><i
+                                            class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+                <div class="work hide">
+                    <img src="./IMAGES/LAPTOP.jpg" alt="">
+                    <div class="layer">
+                        <h3>SkillSage - FreeLancing Platform</h3>
+                        <p>SkillSage is a platform that connects freelancers from different parts of the world to
+                            Businesses.</p>
+                        <div class="button">
+                            <h3>Visit Link</h3>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Show-more show-more-1">
+                <button class="btn btn-primary">Show More</button>
+            </div>
+        </div>
+
+
+
+        <div id="contact">
+            <div class="container-5">
+                <div class="contact-1">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact.example@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i></i>1234567890</p>
+                    <div class="s-m-icons">
+                        <ul>
+                            <a href="https://www.instagram.com/its_lakshay_627/" target="_blank"><i
+                                    class='bx bxl-instagram' style="color: rgb(206, 12, 138);"></i></a>
+                            <a href="https://github.com/LakshayGarg627" target="_blank"><i
+                                    class='bx bxl-github'></i></a>
+                            <a href="https://www.linkedin.com/in/lakshay-garg-31b3bb291/" target="_blank"><i
+                                    class='bx bxl-linkedin' style="color: rgb(43, 43, 212);"></i></a>
+                            <a href="https://x.com/its_lakshay627" target="_blank"><i class='bx bxl-twitter'
+                                    style="color: rgb(14, 148, 225);"></i></a>
+                        </ul>
+
+                    </div>
+                    <div class="cv">
+                        <a href="IMAGES/cv.pdf" target="_blank" download>Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-2">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="text" name="Email" placeholder="Enter Your Email-Id" required>
+                        <textarea name="message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="cv btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Copyright &copy; Portfolio Website.</p>
+        </div>
+
+
+
+        <script src="app.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyAdxh6xoUbPA6uKoAq_Hzq8w1Pc2VCKw1VRz56_OdEPr0-KIGsctPsrI8xtCIwYAF7/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent SuccessFully !!"
+                        setTimeout(function () {
+                            msg.innerHTML = "";
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+</body>
+
+</html>
